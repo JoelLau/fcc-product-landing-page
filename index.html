@@ -6,10 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Title</title>
 </head>
 
 <body>
+    <header id="header">
+        <img id="header-img" alt="company logo" src="https://via.placeholder.com/150" />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#article-1">article-1</a>
+            <a class="nav-link" href="#article-2">article-2</a>
+            <a class="nav-link" href="#article-3">article-3</a>
+        </nav>
+    </header>
+
+    <section>
+
+        <article id="article-1">
+        </article>
+
+        <article id="article-2">
+        </article>
+
+        <article id="article-3">
+            <video controls id="video">
+                <!-- TODO: create a resource folder to store videos / images -->
+                <!-- TODO: find a product video to download -->
+                <source src="tutorial.ogg" type="video /ogg">
+                <source src="tutorial.mp4" type="video /mpeg">
+                <!-- alt text here-->
+                Your browser does not support the video element. Kindly,update it to latest version.
+            </video>
+        </article>
+
+    </section>
+
+
+    <footer>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+                <!-- TODO: consider building Google's input field -->
+                <legend>Legend</legend>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="email" />
+                </div>
+                <!-- TODO: Change "Submit" to a more specific call to action -->
+                <input type="submit" value="submit" id="submit" />
+            </fieldset>
+        </form>
+    </footer>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 

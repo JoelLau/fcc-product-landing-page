@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-self: center;
+}
+
+@media (max-width: 350px) {
+    :root {
+        --primary-color: blue;
+        --secondary-color: yellow;
+    }
+}
